@@ -1,0 +1,247 @@
+<main>
+        <h1>Odin Recipes</h1>
+        <div id="main-container">
+            <div id="main-left">
+            <div id="top">
+                <div id="container-1" class="grid-item">
+                <h5>have you ever heard about Kapana ?</h5>
+                <p>I am  going to share with you a bit about some African recipes precisly Namibian one of the most famous street food markets recipe 
+                called Kapana. Where will one eat KAPANA in the capital city of Namibia, Windhoek, is Oshetu open market
+                 (also known as single quarters).</p>
+               </div>
+               <div id="container-2" class="grid-item">
+                <h4>have you ever heard about Kapna ?</h4>
+                <p>I am  going to share with you a bit about some African recipes precisly Namibian one of the most famous street food markets recipe 
+                called Kapana. Where will one eat KAPANA in the capital city of Namibia, Windhoek, is Oshetu open market
+                 (also known as single quarters).</p>
+               </div>
+
+            </div>
+            <div id="bottom" class="grid-item">
+                <div id="container-3">
+                    <h4>have you ever heard about Kapna ?</h4>
+                <p>I am  going to share with you a bit about some African recipes precisly Namibian one of the most famous street food markets recipe 
+                called Kapana. Where will one eat KAPANA in the capital city of Namibia, Windhoek, is Oshetu open market
+                 (also known as single quarters).</p>
+
+                </div>
+                <div id="container-4" class="grid-item">
+                    <h4>have you ever heard about Kapna ?</h4>
+                <p>I am  going to share with you a bit about some African recipes precisly Namibian one of the most famous street food markets recipe 
+                called Kapana. Where will one eat KAPANA in the capital city of Namibia, Windhoek, is Oshetu open market
+                 (also known as single quarters).</p>
+                </div>
+            </div>
+        </div>
+            <div id="container-5" class="grid-item">
+                <h4>have you ever heard about Kapna ?</h4>
+                <p>I am  going to share with you a bit about some African recipes precisly Namibian one of the most famous street food markets recipe 
+                called Kapana. Where will one eat KAPANA in the capital city of Namibia, Windhoek, is Oshetu open market
+                 (also known as single quarters).</p>
+            </div>
+        </div>
+    </main>
+    -----------------------------------------------------------------------------------------------
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ecf2f8;
+    font-family:'barlow semi condensed', sans-serif;
+
+}
+#main-container{
+    padding:5% 3%; 
+}
+#container-1{
+    background-color:#DBDBC1;
+    z-index: 0;
+}
+#container-2{
+    background-color: #E4F2C9;
+}
+#container-3{
+    background: #8592a5;
+    color:#FFFFFF
+}
+#container-4{
+    background-color: #aa99c7;
+    color:#FFFFFF;
+}
+#container-5{
+    background-color: #E8E0C1;
+}
+#main-container .grid-item{
+    margin-bottom: 20px;
+}
+
+.grid-item {
+    margin-bottom:20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgb(0, 0, 0, 0, 2);
+    font-size: 14px;
+    
+}
+
+.grid-item h4{
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}    
+@media (min-width:576px){
+    #main-container,
+    #main-left,
+    #top,
+    #bottom{
+        display: flex;
+    }
+    #top, #bottom{
+        flex-basis: 50%;
+    
+    }
+    #container-5{
+        flex-basis: 20%;
+    }
+    #main-left{
+        flex-direction: column;
+        flex-basis: 80%;
+    
+    }
+    #main-left .grid-item{
+        margin-right: 20px;
+    }
+    #container-1{
+        flex-basis: 50%;
+    }
+    #container-2{
+        flex-basis: 50%;
+    }    
+    #container-3{
+       flex-basis: 50%;
+    }
+    #container-4{
+       flex-basis: 50%;
+    }
+    #main-container{
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+    
+}
+
+---------------------------------------------------------------------------------------------------
+<div id="main-container">
+        <h1>Odin Recipes</h1>
+                </div>
+       </div>
+
+    <main>
+        <section >
+    <div id="box-1" class="title-content">
+   
+    
+    <h3>I am  going to share with you a bit about some African recipes precisly Namibian </h3>
+    <p><strong>Namibia</strong> is a land of the brave we love our culture and we try as hard to keep it </p>
+    <p>have you ever heard about Kapna ?  Oshiwambo chicken ? if yes or no, this the right place to find out what's Kapana</p>
+    <p>One of the most famous street food markets where one can eat KAPANA in the capital city of Namibia, Windhoek,</p>
+    <p> is Oshetu market (also known as single quarters). </p>
+    <h3>ingredians to prepare kapana:</h3>
+    </div>
+  </section>
+  <section >
+    <div id="box-2" class="reference"> 
+    <ul>
+    
+        
+        <li>for about. 1.5 kg (3.3 lbs) well marbled beef steak</li>
+         <a href="https://www.esterkocht.com/wp-content/uploads/2021/12/Das-Fleisch-in-Streifchen-schneiden.-Kapana-herstellen.-Grillen-auf-namibisch.-Braai..jpg.webp" alt="preparing of meat">preparing of meat</a>
+        <li>2 teaspoons kapana spice mix</li>
+        <a href="https://i1.wp.com/sapantry.co.nz/wp-content/uploads/2020/04/bcb50db5ba2499422c511fad320e70fd76431760.jpg?fit=234%2C654&ssl=1">kapan spice</a>
+        <li>about 2 tablespoons of sunflower or olive oil</li>
+        <a href="https://tse2.mm.bing.net/th?id=OIP.cmOPLo6ZogeNa61kypusMwHaHa&pid=Api&P=0">sunfloor oil ,</a>
+        <a href="https://tse1.mm.bing.net/th?id=OIP.CoPZUIJDTEqK9noXudJLtAHaLH&pid=Api&P=0">olive oil</a>
+        
+    </ul>
+    </div>
+
+    </section>
+    <section >
+        <div id=demonstration-content">
+        <h3>Step to make Kapane</h3>
+        <ol>
+            <li>set fire and wait until you get it to 175 degere celcius</li>
+            <li>cut the meat and spice like shown in the link above</li>
+            <li>let the meat and the mixture get mixt for about an hour or 2 </li>
+            <li>check the firewood should not be smoking only coals should remain </li>
+            <li>place the meat on the fire and turn it every 2 to 3 minutes</li>
+            <li>start serving your client after confirming the meat is ready </li>
+        </ol>
+       </div>
+       <div id="box-4" class="display-1">
+    <img src="https://www.esterkocht.com/wp-content/uploads/2021/12/Namibisch-Grillen-%E2%80%93-Kapana-%E2%80%93-in-Streifen-geschnittenes-und-gegrilltes-Rindfleisch.-Braai.-2-720x720.jpg" width="300px" alt="kapana dish">
+    <p>This how kapana is being prepared before getting to the table</p> 
+
+    <img src="https://tse4.mm.bing.net/th?id=OIP.5bELvqZGKxr5B_n5CSnOYQHaHa&pid=Api&P=0" width="300px" alt="tates grilling">
+    <p>here the guys are starting the day the meat still row after being spiced.</p>
+    <p>The boxes seen infront of the grille contain spice, salt and chilli.</p>
+       </div>
+       <div id="box-5" class="display-2">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.Nts6C7ieoZOmqwoihCwOhgHaFj&pid=Api&P=0" width="350px" alt="starting the braii">
+    <p>Clients are being served the system requires the meat to be chopped in peaces so client wont use folk on knives</p>
+    <img src="http://www.travelnewsnamibia.com/wp-content/uploads/IMG_9634-2.jpg" width="350px" alt="ready to eat">
+    <p>The Kapana is ready  you can be  served on the news paper or the "usage unique plate" </p>
+       </div>
+       <div id="box-5" class=" dispaly-3">
+    <a href="recipes/kapana.html">recipes of the weekend</a>
+    <h3>we also have many local recipes</h3>
+    <p> but here we going to talk about few that mostly popular</p>
+    <p>traditionally oshiwambo chicken is a delicious food prepared for guest</p>
+    
+    <p>below is the link to redirect you on the page presenting the recipes of <strong>oshiwambo chicken</strong></p>
+     <a href="recipes1/oshiwambo.html">oshiwambo chichen</a>
+    </div>
+    </section>
+
+  </main>
+  --------------------------------------------------------------------------------------------------------
+  box-1{
+    border:1px black;
+    padding: 30px;
+
+}
+
+.box-2{
+    border:1px solid green;
+    padding: 30 px;
+}
+.box-3{
+    border: 1px solid green ;
+    padding: 30px;
+}
+.box-4{
+   border: 1px solid blue;
+   padding: 30px;
+}
+.box-5{
+ border: 1px solid blue;
+ padding: 30px;
+}
+.title-content{
+     display: inline;
+    font-family: Arial, Helvetica, sans-serif;;
+
+
+---------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
